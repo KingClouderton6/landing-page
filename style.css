@@ -41,6 +41,7 @@ a {
     flex-flow: column wrap;
     background: #2A3675;
     align-items: center;
+    color: white;
 }
 
 .top-wrap {
@@ -55,10 +56,16 @@ a {
     font-size: 48px
 }
 
+.top-text-body {
+    font-size: 18px;
+    min-width: 200px;
+}
+
+
 .top-content {
     display: flex;
     flex-flow: column;
-    gap: 5px;
+    gap: 12px;
     padding: 10px;
 }
 
@@ -79,15 +86,16 @@ a {
 
 
 .top-image img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     flex-grow: 1;
+    padding: 10px;
 }
 
 .icon-image img {
     width: 200px;
     height: 200px;
-    border: 5px solid black;
+    border: 2px solid black; 
     border-radius: 8px;
     box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -97,7 +105,7 @@ a {
     flex-direction: column;
     align-items: center;
     background-color: #475BBD;
-    color: #0B0E19;
+    color: white;
     padding: 30px;
     gap: 10px;
     flex: 1 1 auto;
@@ -125,14 +133,24 @@ footer {
 
 .inspiration-wrap {
     display: flex;
+    align-self: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     flex: 1 1 auto;
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 12px;
+    margin: 20px;
 }
 
 .inspiration-quote {
-    font-size: 36px;
+    font-size: 18px;
     font-weight: bolder;
-    margin: 20px;
+}
+
+.inspiration-name {
+    align-self: flex-end;
 }
