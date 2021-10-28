@@ -100,9 +100,14 @@ a {
     box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+p.icon-text {
+    max-width:200px;
+}
+
 .middle-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #475BBD;
     color: white;
@@ -114,7 +119,7 @@ a {
 .middle-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -143,7 +148,7 @@ footer {
     background-color: white;
     box-shadow: 0 12px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 12px;
-    margin: 20px;
+    margin: 100px;
 }
 
 .inspiration-quote {
